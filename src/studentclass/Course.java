@@ -12,8 +12,7 @@ package studentclass;
 public class Course {
     private final String name;
     
-    Course(String name, String id) {
+    Course(String name) {
         this.name = name;
-        this.id = id;
     }
 }
